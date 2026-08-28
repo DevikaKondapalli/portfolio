@@ -23,7 +23,7 @@ export default function Projects() {
       title: 'Professional Weather Assistant Website',
       year: '2024',
       tags: ['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express', 'OpenWeather API'],
-      liveDemo: '',
+      liveDemo: 'https://weather-detector-ruby.vercel.app/',
       gitHub: 'https://github.com/DevikaKondapalli/Weather_Detector',
       sections: [
         { label: 'PROBLEM', text: 'Weather dashboard applications often expose private API keys on the frontend or fail to provide actionable real-time precautions.' },
