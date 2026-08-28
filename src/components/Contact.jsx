@@ -6,7 +6,7 @@ import { Linkedin, Github } from './Icons';
 export default function Contact() {
   const contactLinks = {
     email: 'mailto:kondapallidevika996@gmail.com',
-    linkedin: 'https://linkedin.com/in/devika-kondapalli',
+    linkedin: 'https://linkedin.com/in/devika-kondapallidevika',
     github: 'https://github.com/DevikaKondapalli',
     resume: '/resume.pdf'
   };

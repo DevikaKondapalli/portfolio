@@ -62,7 +62,7 @@ export default function Hero() {
             {/* Socials */}
             <div className="flex gap-4 items-center">
               <a 
-                href="https://linkedin.com/in/devika-kondapalli" 
+                href="https://linkedin.com/in/devika-kondapallidevika" 
                 target="_blank" 
                 rel="noreferrer"
                 className="inline-flex items-center justify-center p-3 text-textSecondary hover:text-textPrimary border border-white/[0.06] hover:border-white/[0.12] bg-white/[0.02] rounded hover:scale-105 active:scale-95 transition-all"
