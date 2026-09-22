@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { Linkedin } from './Icons';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,6 +21,7 @@ export default function Navbar() {
     { label: 'Experience', href: '#experience' },
     { label: 'AI Integration', href: '#ai-for-analytics' },
     { label: 'Education', href: '#education' },
+    { label: 'Resume', href: '#resume' },
   ];
 
   return (
@@ -47,8 +49,17 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Desktop CTA Button */}
-        <div className="hidden md:block">
+        {/* Desktop CTA & Socials */}
+        <div className="hidden md:flex items-center gap-3">
+          <a 
+            href="https://www.linkedin.com/in/devika-kondapalli" 
+            target="_blank" 
+            rel="noreferrer"
+            className="p-2 text-textSecondary hover:text-accentTeal transition-colors rounded hover:bg-white/[0.04]"
+            title="LinkedIn Profile"
+          >
+            <Linkedin size={16} />
+          </a>
           <a 
             href="#contact" 
             className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold font-mono tracking-wide uppercase border border-accentTeal/30 text-accentTeal hover:bg-accentTeal/10 rounded transition-all duration-300"
@@ -80,13 +91,23 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a 
-            href="#contact"
-            onClick={() => setIsMenuOpen(false)}
-            className="w-full flex items-center justify-center gap-1.5 px-4 py-2.5 text-sm font-semibold font-mono tracking-wide uppercase border border-accentTeal/30 text-accentTeal hover:bg-accentTeal/10 rounded transition-all duration-300"
-          >
-            Contact <ArrowUpRight size={16} />
-          </a>
+          <div className="flex flex-col gap-3 pt-2">
+            <a 
+              href="https://www.linkedin.com/in/devika-kondapalli" 
+              target="_blank" 
+              rel="noreferrer"
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold font-mono tracking-wide border border-accentTeal/30 text-accentTeal hover:bg-accentTeal/10 rounded transition-all duration-300"
+            >
+              <Linkedin size={16} /> LinkedIn Profile
+            </a>
+            <a 
+              href="#contact" 
+              onClick={() => setIsMenuOpen(false)}
+              className="w-full flex items-center justify-center gap-1.5 px-4 py-2.5 text-sm font-semibold font-mono tracking-wide uppercase bg-accentTeal text-[#0B0E14] hover:bg-accentTeal/90 rounded transition-all duration-300"
+            >
+              Contact <ArrowUpRight size={16} />
+            </a>
+          </div>
         </div>
       )}
     </nav>

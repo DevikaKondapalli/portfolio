@@ -6,7 +6,7 @@ import { Linkedin, Github } from './Icons';
 export default function Contact() {
   const contactLinks = {
     email: 'mailto:kondapallidevika996@gmail.com',
-    linkedin: 'https://linkedin.com/in/devika-kondapallidevika',
+    linkedin: 'https://www.linkedin.com/in/devika-kondapalli',
     github: 'https://github.com/DevikaKondapalli',
     resume: '/resume.pdf'
   };
@@ -34,7 +34,7 @@ export default function Contact() {
               Let's talk data.
             </h2>
             <p className="text-base sm:text-lg text-textSecondary font-light leading-relaxed">
-              Open to Data Analyst roles in Hyderabad &mdash; resume, code and dashboards are one click away.
+              Open to Data Analyst roles in Hyderabad &bull; +91-8688906651 &bull; Resume, LinkedIn, code, and dashboards are one click away.
             </p>
           </div>
 

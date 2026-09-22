@@ -6,8 +6,8 @@ export default function Education() {
   const achievements = [
     {
       icon: <Award size={16} className="text-accentTeal" />,
-      title: '1st Rank, B.Tech CSE',
-      desc: 'Secured 1st rank in class throughout the program.'
+      title: '2nd Rank, B.Tech CSE',
+      desc: 'Secured 2nd rank in class throughout the program.'
     },
     {
       icon: <Shield size={16} className="text-accentTeal" />,
