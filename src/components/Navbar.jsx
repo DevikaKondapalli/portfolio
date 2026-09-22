@@ -21,7 +21,6 @@ export default function Navbar() {
     { label: 'Experience', href: '#experience' },
     { label: 'AI Integration', href: '#ai-for-analytics' },
     { label: 'Education', href: '#education' },
-    { label: 'Resume', href: '#resume' },
   ];
 
   return (
